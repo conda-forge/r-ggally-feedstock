@@ -14,9 +14,8 @@ Summary:  The R package 'ggplot2' is a plotting system based on the grammar of g
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-ggally-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-ggally-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-ggally-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-ggally-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-ggally-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-ggally-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-ggally-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-ggally-feedstock)
 
 Current release info
 ====================
