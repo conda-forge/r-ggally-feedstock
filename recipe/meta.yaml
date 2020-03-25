@@ -1,4 +1,4 @@
-{% set version = '1.4.0' %}
+{% set version = "1.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/GGally_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/GGally/GGally_{{ version }}.tar.gz
-  sha256: 9a47cdf004c41f5e4024327b94227707f4dad3a0ac5556d8f1fba9bf0a6355fe
+  sha256: 069261cd469e2d2c8c794b2956e69c356b471eccfc45a60c55e55dfd83185a20
 
 build:
   noarch: generic
-  merge_build_host: True  # [win]
-  number: 1001
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -51,20 +51,12 @@ test:
 about:
   home: https://ggobi.github.io/ggally, https://github.com/ggobi/ggally
   license: GPL (>= 2.0)
-  summary: ' The R package ''ggplot2'' is a plotting system based on the grammar of graphics.
-    ''GGally'' extends ''ggplot2'' by adding several functions to reduce the complexity
-    of combining geometric objects with transformed data. Some of these functions include
-    a pairwise plot matrix, a two group pairwise plot matrix, a parallel coordinates
-    plot, a survival plot, and several functions to plot networks.'
+  summary: " The R package 'ggplot2' is a plotting system based on the grammar of graphics. 'GGally' extends 'ggplot2' by adding several functions to reduce the complexity\
+    \ of combining geometric objects with transformed data. Some of these functions include a pairwise plot matrix, a two group pairwise plot matrix, a parallel coordinates\
+    \ plot, a survival plot, and several functions to plot networks."
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
