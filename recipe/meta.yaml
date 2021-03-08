@@ -1,4 +1,4 @@
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/GGally_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/GGally/GGally_{{ version }}.tar.gz
-  sha256: 7ffb86b8a4e79543cf7e6bb1e3684d738ecd8e0ba89e8ef38991898b18dd6c53
+  sha256: 37e582a1b30ba74db9c01d49d850b56013b79a91f8d7bac2b76c903653319e52
 
 build:
   merge_build_host: true  # [win]
