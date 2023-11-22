@@ -3,11 +3,13 @@ About r-ggally-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggally-feedstock/blob/main/LICENSE.txt)
 
-Home: https://ggobi.github.io/ggally, https://github.com/ggobi/ggally
+Home: https://ggobi.github.io/ggally
 
 Package license: GPL-2.0-or-later
 
 Summary:  The R package 'ggplot2' is a plotting system based on the grammar of graphics. 'GGally' extends 'ggplot2' by adding several functions to reduce the complexity of combining geometric objects with transformed data. Some of these functions include a pairwise plot matrix, a two group pairwise plot matrix, a parallel coordinates plot, a survival plot, and several functions to plot networks.
+
+Development: https://github.com/ggobi/ggally
 
 Current build status
 ====================
@@ -95,7 +97,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
