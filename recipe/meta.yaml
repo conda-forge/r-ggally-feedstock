@@ -1,6 +1,5 @@
 {% set version = "2.2.1" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-ggally
@@ -13,8 +12,7 @@ source:
   sha256: 8bb326665936a63f6eef92a2af1a11d1fae78dbd28d6980608d2b38ee1f586c6
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
