@@ -1,4 +1,4 @@
-{% set version = "2.3.0" %}
+{% set version = "2.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/GGally_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/GGally/GGally_{{ version }}.tar.gz
-  sha256: fe5eabe9eec66fd578ce244e291d0453846dd2181b39ca9039c157971ba16d09
+  sha256: c8d458160e0c220bfeae49ceacd7762534a9ade7e75dfcd974c88c79aa8f7382
 
 build:
   number: 0
